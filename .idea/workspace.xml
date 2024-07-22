@@ -4,19 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="467dca58-7c06-4726-bbee-131ed301253f" name="Changes" comment="init">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/CafeKioskApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/unit/CafeKiosk.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/unit/CafeKioskRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/unit/beverage/Americano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/unit/beverage/Beverage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/unit/beverage/Latte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/unit/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/unit/CafeKioskTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="467dca58-7c06-4726-bbee-131ed301253f" name="Changes" comment="수동 테스트">
+      <change afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/unit/beverage/AmericanoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/메모.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/메모.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/unit/CafeKiosk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/unit/CafeKiosk.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cafeKiosk/unit/CafeKioskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/unit/CafeKioskTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,7 +79,12 @@
     "Application.CafeKioskApplication.executor": "Run",
     "Application.CafeKioskRunner.executor": "Run",
     "Gradle.Pratical_Testing [:CafeKioskApplication.main()].executor": "Run",
+    "JUnit.AmericanoTest.getName.executor": "Run",
     "JUnit.CafeKioskTest.add.executor": "Run",
+    "JUnit.CafeKioskTest.addZeroBeverages.executor": "Debug",
+    "JUnit.CafeKioskTest.clear.executor": "Run",
+    "JUnit.CafeKioskTest.createOrderInsideOpenTime.executor": "Run",
+    "JUnit.CafeKioskTest.remove.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -100,8 +98,17 @@
     "settings.editor.selected.configurable": "reference.idesettings.emmet"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="CafeKioskTest.add" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="cafeKiosk.unit.beverage" />
+      <recent name="cafeKiosk.unit" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CafeKioskTest.createOrderOutsideOpenTime">
+    <configuration name="CafeKioskTest.addZeroBeverages" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Pratical_Testing.test" />
       <extension name="coverage">
         <pattern>
@@ -111,7 +118,71 @@
       </extension>
       <option name="PACKAGE_NAME" value="cafeKiosk.unit" />
       <option name="MAIN_CLASS_NAME" value="cafeKiosk.unit.CafeKioskTest" />
-      <option name="METHOD_NAME" value="add" />
+      <option name="METHOD_NAME" value="addZeroBeverages" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CafeKioskTest.clear" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Pratical_Testing.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cafeKiosk.unit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cafeKiosk.unit" />
+      <option name="MAIN_CLASS_NAME" value="cafeKiosk.unit.CafeKioskTest" />
+      <option name="METHOD_NAME" value="clear" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CafeKioskTest.createOrderInsideOpenTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Pratical_Testing.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cafeKiosk.unit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cafeKiosk.unit" />
+      <option name="MAIN_CLASS_NAME" value="cafeKiosk.unit.CafeKioskTest" />
+      <option name="METHOD_NAME" value="createOrderInsideOpenTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CafeKioskTest.createOrderOutsideOpenTime" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Pratical_Testing.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cafeKiosk.unit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cafeKiosk.unit" />
+      <option name="MAIN_CLASS_NAME" value="cafeKiosk.unit.CafeKioskTest" />
+      <option name="METHOD_NAME" value="createOrderOutsideOpenTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CafeKioskTest.remove" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Pratical_Testing.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cafeKiosk.unit.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cafeKiosk.unit" />
+      <option name="MAIN_CLASS_NAME" value="cafeKiosk.unit.CafeKioskTest" />
+      <option name="METHOD_NAME" value="remove" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,7 +190,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CafeKioskTest.add" />
+        <item itemvalue="JUnit.CafeKioskTest.createOrderOutsideOpenTime" />
+        <item itemvalue="JUnit.CafeKioskTest.createOrderInsideOpenTime" />
+        <item itemvalue="JUnit.CafeKioskTest.addZeroBeverages" />
+        <item itemvalue="JUnit.CafeKioskTest.clear" />
+        <item itemvalue="JUnit.CafeKioskTest.remove" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721573906157</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="수동 테스트">
+      <option name="closed" value="true" />
+      <created>1721578809469</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721578809469</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +239,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="수동 테스트" />
+    <option name="LAST_COMMIT_MESSAGE" value="수동 테스트" />
   </component>
 </project>
