@@ -1,7 +1,7 @@
 package cafeKiosk.spring.domain;
 
-import com.fasterxml.jackson.databind.ser.Serializers;
 import lombok.AccessLevel;
+import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -16,13 +16,25 @@ public class Product extends BaseEntity {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @Enumerated(EnumType.STRING)
-    private ProductType productType;
+    @Column
+    private String productNumber;
 
     @Enumerated(EnumType.STRING)
-    private ProductSellingType sellingType;
+    private ProductType type;
+
+    @Enumerated(EnumType.STRING)
+    private ProductSellingStatus sellingStatus;
 
     private String name;
 
     private int price;
+
+    @Builder
+    public Product(String productNumber, ProductType type, ProductSellingStatus sellingStatus, String name, int price) {
+        this.productNumber = productNumber;
+        this.type = type;
+        this.sellingStatus = sellingStatus;
+        this.name = name;
+        this.price = price;
+    }
 }
