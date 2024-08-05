@@ -1,8 +1,8 @@
 package cafeKiosk.spring.service.product;
 
-import cafeKiosk.spring.domain.Product;
-import cafeKiosk.spring.domain.ProductRepository;
-import cafeKiosk.spring.domain.ProductSellingStatus;
+import cafeKiosk.spring.domain.product.Product;
+import cafeKiosk.spring.domain.product.ProductRepository;
+import cafeKiosk.spring.domain.product.ProductSellingStatus;
 import cafeKiosk.spring.service.product.response.ProductResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;

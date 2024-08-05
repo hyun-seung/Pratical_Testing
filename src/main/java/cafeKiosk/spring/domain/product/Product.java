@@ -1,5 +1,6 @@
-package cafeKiosk.spring.domain;
+package cafeKiosk.spring.domain.product;
 
+import cafeKiosk.spring.domain.BaseEntity;
 import lombok.AccessLevel;
 import lombok.Builder;
 import lombok.Getter;

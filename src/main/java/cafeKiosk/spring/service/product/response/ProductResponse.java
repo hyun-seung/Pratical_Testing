@@ -1,8 +1,8 @@
 package cafeKiosk.spring.service.product.response;
 
-import cafeKiosk.spring.domain.Product;
-import cafeKiosk.spring.domain.ProductSellingStatus;
-import cafeKiosk.spring.domain.ProductType;
+import cafeKiosk.spring.domain.product.Product;
+import cafeKiosk.spring.domain.product.ProductSellingStatus;
+import cafeKiosk.spring.domain.product.ProductType;
 import lombok.Builder;
 import lombok.Getter;
 
