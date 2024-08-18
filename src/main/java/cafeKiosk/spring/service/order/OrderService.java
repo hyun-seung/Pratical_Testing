@@ -8,6 +8,7 @@ import cafeKiosk.spring.domain.product.ProductRepository;
 import cafeKiosk.spring.domain.product.ProductType;
 import cafeKiosk.spring.domain.stock.Stock;
 import cafeKiosk.spring.domain.stock.StockRepository;
+import cafeKiosk.spring.service.order.request.OrderCreateServiceRequest;
 import cafeKiosk.spring.service.order.response.OrderResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -28,7 +29,7 @@ public class OrderService {
     private final OrderRepository orderRepository;
     private final StockRepository stockRepository;
 
-    public OrderResponse createOrder(OrderCreateRequest request, LocalDateTime registeredDateTime) {
+    public OrderResponse createOrder(OrderCreateServiceRequest request, LocalDateTime registeredDateTime) {
         List<String> productNumbers = request.getProductNumbers();
         List<Product> products = findProductsBy(productNumbers);
 

@@ -4,32 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="467dca58-7c06-4726-bbee-131ed301253f" name="Changes" comment="테스트는 문서다.">
-      <change afterPath="$PROJECT_DIR$/http/order.http" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/controller/order/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/controller/order/request/OrderCreateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/order/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/order/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/order/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/orderproduct/OrderProduct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/stock/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/stock/StockRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/service/order/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/service/order/response/OrderResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/domain/order/OrderTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/domain/orderproduct/OrderProductRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/domain/product/ProductTypeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/domain/stock/StockRepositoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/domain/stock/StockTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/service/order/OrderServiceTest.java" afterDir="false" />
+    <list default="true" id="467dca58-7c06-4726-bbee-131ed301253f" name="Changes" comment="Business Layer">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/api/ApiControllerAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/api/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/config/JpaAuditingConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/product/dto/ProductCreateRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/service/order/request/OrderCreateServiceRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/service/product/request/ProductCreateServiceRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/controller/order/OrderControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/controller/product/ProductControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/service/product/ProductServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/메모.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/메모.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/product/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/product/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/ProductSellingStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/product/ProductSellingStatus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/ProductType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/product/ProductType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/CafeKioskApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/CafeKioskApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/controller/order/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/controller/order/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/controller/order/request/OrderCreateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/controller/order/request/OrderCreateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/controller/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/controller/product/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/product/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/product/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/service/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/service/order/OrderService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/service/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/service/product/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/service/product/response/ProductResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/service/product/response/ProductResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/domain/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/domain/ProductRepositoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,9 +57,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -111,15 +105,29 @@
     "JUnit.CafeKioskTest.createOrderInsideOpenTime.executor": "Run",
     "JUnit.CafeKioskTest.createOrderOutsideOpenTime.executor": "Run",
     "JUnit.CafeKioskTest.remove.executor": "Run",
+    "JUnit.OrderControllerTest.createOrder.executor": "Run",
+    "JUnit.OrderControllerTest.createProductWithEmptyProductNumbers.executor": "Run",
+    "JUnit.OrderControllerTest.executor": "Run",
     "JUnit.OrderServiceTest.createOrder.executor": "Run",
     "JUnit.OrderServiceTest.createOrderWithDuplicateProductNumbers.executor": "Run",
     "JUnit.OrderServiceTest.createOrderWithNoStock.executor": "Run",
     "JUnit.OrderServiceTest.createOrderWithStock.executor": "Debug",
     "JUnit.OrderServiceTest.executor": "Run",
+    "JUnit.OrderServiceTest.test.executor": "Run",
     "JUnit.OrderTest.calculateTotalPrice.executor": "Run",
     "JUnit.OrderTest.init.executor": "Run",
     "JUnit.OrderTest.registeredDateTime.executor": "Run",
+    "JUnit.ProductControllerTest.createProduct.executor": "Run",
+    "JUnit.ProductControllerTest.createProductWithoutType.executor": "Run",
+    "JUnit.ProductControllerTest.executor": "Run",
+    "JUnit.ProductControllerTest.getSellingProducts.executor": "Run",
+    "JUnit.ProductRepositoryTest.executor": "Run",
     "JUnit.ProductRepositoryTest.findAllByProductNumberIn.executor": "Run",
+    "JUnit.ProductRepositoryTest.findLatestProductNumber.executor": "Run",
+    "JUnit.ProductRepositoryTest.findLatestProductNumberWhenProductIsEmpty.executor": "Run",
+    "JUnit.ProductServiceTest.createProduct.executor": "Run",
+    "JUnit.ProductServiceTest.createProductWhenProductysIsEmpty.executor": "Run",
+    "JUnit.ProductServiceTest.executor": "Run",
     "JUnit.ProductTypeTest.executor": "Run",
     "JUnit.StockRepositoryTest.findAllByProductNumberIn.executor": "Run",
     "JUnit.StockTest.deductQuantity.executor": "Run",
@@ -149,87 +157,87 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="cafeKiosk.spring.controller.order" />
+      <recent name="cafeKiosk.spring.controller.product" />
+      <recent name="cafeKiosk.spring.service.product" />
       <recent name="cafeKiosk.spring.domain.stock" />
       <recent name="cafeKiosk.spring.domain.product" />
-      <recent name="cafeKiosk.spring.domain.order" />
-      <recent name="cafeKiosk.spring.service.order" />
-      <recent name="cafeKiosk.unit.beverage" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OrderServiceTest.createOrderWithNoStock">
-    <configuration name="OrderServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.OrderControllerTest">
+    <configuration name="OrderControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Pratical_Testing.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cafeKiosk.spring.service.order.*" />
+          <option name="PATTERN" value="cafeKiosk.spring.controller.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cafeKiosk.spring.service.order" />
-      <option name="MAIN_CLASS_NAME" value="cafeKiosk.spring.service.order.OrderServiceTest" />
+      <option name="PACKAGE_NAME" value="cafeKiosk.spring.controller.order" />
+      <option name="MAIN_CLASS_NAME" value="cafeKiosk.spring.controller.order.OrderControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderServiceTest.createOrderWithNoStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderControllerTest.createOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Pratical_Testing.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cafeKiosk.spring.service.order.*" />
+          <option name="PATTERN" value="cafeKiosk.spring.controller.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cafeKiosk.spring.service.order" />
-      <option name="MAIN_CLASS_NAME" value="cafeKiosk.spring.service.order.OrderServiceTest" />
-      <option name="METHOD_NAME" value="createOrderWithNoStock" />
+      <option name="PACKAGE_NAME" value="cafeKiosk.spring.controller.order" />
+      <option name="MAIN_CLASS_NAME" value="cafeKiosk.spring.controller.order.OrderControllerTest" />
+      <option name="METHOD_NAME" value="createOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderServiceTest.createOrderWithStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderControllerTest.createProductWithEmptyProductNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Pratical_Testing.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cafeKiosk.spring.service.order.*" />
+          <option name="PATTERN" value="cafeKiosk.spring.controller.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cafeKiosk.spring.service.order" />
-      <option name="MAIN_CLASS_NAME" value="cafeKiosk.spring.service.order.OrderServiceTest" />
-      <option name="METHOD_NAME" value="createOrderWithStock" />
+      <option name="PACKAGE_NAME" value="cafeKiosk.spring.controller.order" />
+      <option name="MAIN_CLASS_NAME" value="cafeKiosk.spring.controller.order.OrderControllerTest" />
+      <option name="METHOD_NAME" value="createProductWithEmptyProductNumbers" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Pratical_Testing.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cafeKiosk.spring.domain.stock.*" />
+          <option name="PATTERN" value="cafeKiosk.spring.controller.product.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cafeKiosk.spring.domain.stock" />
-      <option name="MAIN_CLASS_NAME" value="cafeKiosk.spring.domain.stock.StockTest" />
+      <option name="PACKAGE_NAME" value="cafeKiosk.spring.controller.product" />
+      <option name="MAIN_CLASS_NAME" value="cafeKiosk.spring.controller.product.ProductControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StockTest.deductQuantity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductControllerTest.getSellingProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Pratical_Testing.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cafeKiosk.spring.domain.stock.*" />
+          <option name="PATTERN" value="cafeKiosk.spring.controller.product.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cafeKiosk.spring.domain.stock" />
-      <option name="MAIN_CLASS_NAME" value="cafeKiosk.spring.domain.stock.StockTest" />
-      <option name="METHOD_NAME" value="deductQuantity" />
+      <option name="PACKAGE_NAME" value="cafeKiosk.spring.controller.product" />
+      <option name="MAIN_CLASS_NAME" value="cafeKiosk.spring.controller.product.ProductControllerTest" />
+      <option name="METHOD_NAME" value="getSellingProducts" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -237,11 +245,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrderServiceTest.createOrderWithNoStock" />
-        <item itemvalue="JUnit.OrderServiceTest" />
-        <item itemvalue="JUnit.OrderServiceTest.createOrderWithStock" />
-        <item itemvalue="JUnit.StockTest" />
-        <item itemvalue="JUnit.StockTest.deductQuantity" />
+        <item itemvalue="JUnit.OrderControllerTest" />
+        <item itemvalue="JUnit.OrderControllerTest.createProductWithEmptyProductNumbers" />
+        <item itemvalue="JUnit.OrderControllerTest.createOrder" />
+        <item itemvalue="JUnit.ProductControllerTest" />
+        <item itemvalue="JUnit.ProductControllerTest.getSellingProducts" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721819412016</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Business Layer">
+      <option name="closed" value="true" />
+      <created>1722875743915</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1722875743915</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -305,6 +321,7 @@
     <MESSAGE value="수동 테스트" />
     <MESSAGE value="단위 테스트" />
     <MESSAGE value="테스트는 문서다." />
-    <option name="LAST_COMMIT_MESSAGE" value="테스트는 문서다." />
+    <MESSAGE value="Business Layer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Business Layer" />
   </component>
 </project>
