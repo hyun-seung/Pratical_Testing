@@ -4,27 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="467dca58-7c06-4726-bbee-131ed301253f" name="Changes" comment="Business Layer">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/api/ApiControllerAdvice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/api/ApiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/config/JpaAuditingConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/product/dto/ProductCreateRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/service/order/request/OrderCreateServiceRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/service/product/request/ProductCreateServiceRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/controller/order/OrderControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/controller/product/ProductControllerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/service/product/ProductServiceTest.java" afterDir="false" />
+    <list default="true" id="467dca58-7c06-4726-bbee-131ed301253f" name="Changes" comment="Presentation Layer">
+      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/client/mail/MailSendClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/history/MailSendHistory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/history/MailSendHistoryRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/service/mail/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/service/order/OrderStatisticsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/service/mail/MailServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/service/order/OrderStatisticsServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/메모.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/메모.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/CafeKioskApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/CafeKioskApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/controller/order/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/controller/order/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/controller/order/request/OrderCreateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/controller/order/request/OrderCreateRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/controller/product/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/controller/product/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/product/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/product/ProductRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/service/order/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/service/order/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/service/product/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/service/product/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/domain/ProductRepositoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/domain/ProductRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/order/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/order/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/order/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/service/order/OrderServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/service/order/OrderServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/service/product/ProductServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/service/product/ProductServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,9 +50,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
-        <option value="Class" />
       </list>
     </option>
   </component>
@@ -105,6 +98,7 @@
     "JUnit.CafeKioskTest.createOrderInsideOpenTime.executor": "Run",
     "JUnit.CafeKioskTest.createOrderOutsideOpenTime.executor": "Run",
     "JUnit.CafeKioskTest.remove.executor": "Run",
+    "JUnit.MailServiceTest.sendMail.executor": "Run",
     "JUnit.OrderControllerTest.createOrder.executor": "Run",
     "JUnit.OrderControllerTest.createProductWithEmptyProductNumbers.executor": "Run",
     "JUnit.OrderControllerTest.executor": "Run",
@@ -114,6 +108,7 @@
     "JUnit.OrderServiceTest.createOrderWithStock.executor": "Debug",
     "JUnit.OrderServiceTest.executor": "Run",
     "JUnit.OrderServiceTest.test.executor": "Run",
+    "JUnit.OrderStatisticsServiceTest.sendOrderStatisicsMail.executor": "Run",
     "JUnit.OrderTest.calculateTotalPrice.executor": "Run",
     "JUnit.OrderTest.init.executor": "Run",
     "JUnit.OrderTest.registeredDateTime.executor": "Run",
@@ -157,14 +152,30 @@
       <recent name="" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="cafeKiosk.spring.service.mail" />
+      <recent name="cafeKiosk.spring.service.order" />
       <recent name="cafeKiosk.spring.controller.order" />
       <recent name="cafeKiosk.spring.controller.product" />
       <recent name="cafeKiosk.spring.service.product" />
-      <recent name="cafeKiosk.spring.domain.stock" />
-      <recent name="cafeKiosk.spring.domain.product" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OrderControllerTest">
+  <component name="RunManager" selected="JUnit.MailServiceTest.sendMail">
+    <configuration name="MailServiceTest.sendMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Pratical_Testing.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cafeKiosk.spring.service.mail.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cafeKiosk.spring.service.mail" />
+      <option name="MAIN_CLASS_NAME" value="cafeKiosk.spring.service.mail.MailServiceTest" />
+      <option name="METHOD_NAME" value="sendMail" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Pratical_Testing.test" />
       <extension name="coverage">
@@ -212,32 +223,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="OrderStatisticsServiceTest.sendOrderStatisicsMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Pratical_Testing.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cafeKiosk.spring.controller.product.*" />
+          <option name="PATTERN" value="cafeKiosk.spring.service.order.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cafeKiosk.spring.controller.product" />
-      <option name="MAIN_CLASS_NAME" value="cafeKiosk.spring.controller.product.ProductControllerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProductControllerTest.getSellingProducts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Pratical_Testing.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cafeKiosk.spring.controller.product.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cafeKiosk.spring.controller.product" />
-      <option name="MAIN_CLASS_NAME" value="cafeKiosk.spring.controller.product.ProductControllerTest" />
-      <option name="METHOD_NAME" value="getSellingProducts" />
+      <option name="PACKAGE_NAME" value="cafeKiosk.spring.service.order" />
+      <option name="MAIN_CLASS_NAME" value="cafeKiosk.spring.service.order.OrderStatisticsServiceTest" />
+      <option name="METHOD_NAME" value="sendOrderStatisicsMail" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -245,11 +241,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MailServiceTest.sendMail" />
+        <item itemvalue="JUnit.OrderStatisticsServiceTest.sendOrderStatisicsMail" />
         <item itemvalue="JUnit.OrderControllerTest" />
         <item itemvalue="JUnit.OrderControllerTest.createProductWithEmptyProductNumbers" />
         <item itemvalue="JUnit.OrderControllerTest.createOrder" />
-        <item itemvalue="JUnit.ProductControllerTest" />
-        <item itemvalue="JUnit.ProductControllerTest.getSellingProducts" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +298,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722875743915</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Presentation Layer">
+      <option name="closed" value="true" />
+      <created>1723992963245</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1723992963245</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -322,6 +326,7 @@
     <MESSAGE value="단위 테스트" />
     <MESSAGE value="테스트는 문서다." />
     <MESSAGE value="Business Layer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Business Layer" />
+    <MESSAGE value="Presentation Layer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Presentation Layer" />
   </component>
 </project>
