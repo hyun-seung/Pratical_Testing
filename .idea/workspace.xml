@@ -4,20 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="467dca58-7c06-4726-bbee-131ed301253f" name="Changes" comment="Presentation Layer">
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/client/mail/MailSendClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/history/MailSendHistory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/history/MailSendHistoryRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/service/mail/MailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/service/order/OrderStatisticsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/service/mail/MailServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/service/order/OrderStatisticsServiceTest.java" afterDir="false" />
+    <list default="true" id="467dca58-7c06-4726-bbee-131ed301253f" name="Changes" comment="Mock을 마주하는 자세">
+      <change afterPath="$PROJECT_DIR$/src/docs/asciidoc/index.adoc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/docs/RestDocsSupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/docs/product/ProductControllerDocsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/org/springframework/restdocs/templates/request-fields.snippet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/메모.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/메모.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/order/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/order/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/order/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/domain/order/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/service/order/OrderServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/service/order/OrderServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/service/product/ProductServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/spring/service/product/ProductServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/controller/order/request/OrderCreateRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cafeKiosk/spring/controller/order/request/OrderCreateRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/cafeKiosk/unit/CafeKioskTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/cafeKiosk/unit/CafeKioskTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +29,32 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="Pratical_Testing" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Pratical_Testing" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Pratical_Testing" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="Pratical_Testing" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="documentation" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -50,9 +67,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -83,18 +100,21 @@
   <component name="ProjectId" id="2jYoO7YYU9xsrhksVAyI3lwcLtB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CafeKioskApplication.executor": "Run",
     "Application.CafeKioskRunner.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
     "Gradle.Pratical_Testing [:CafeKioskApplication.main()].executor": "Run",
+    "Gradle.Pratical_Testing [asciidoctor].executor": "Run",
+    "Gradle.Pratical_Testing [build].executor": "Run",
     "JUnit.AmericanoTest.getName.executor": "Run",
     "JUnit.CafeKioskTest.add.executor": "Run",
     "JUnit.CafeKioskTest.addZeroBeverages.executor": "Debug",
     "JUnit.CafeKioskTest.clear.executor": "Run",
+    "JUnit.CafeKioskTest.createOrder.executor": "Run",
     "JUnit.CafeKioskTest.createOrderInsideOpenTime.executor": "Run",
     "JUnit.CafeKioskTest.createOrderOutsideOpenTime.executor": "Run",
     "JUnit.CafeKioskTest.remove.executor": "Run",
@@ -112,6 +132,7 @@
     "JUnit.OrderTest.calculateTotalPrice.executor": "Run",
     "JUnit.OrderTest.init.executor": "Run",
     "JUnit.OrderTest.registeredDateTime.executor": "Run",
+    "JUnit.ProductControllerDocsTest.executor": "Run",
     "JUnit.ProductControllerTest.createProduct.executor": "Run",
     "JUnit.ProductControllerTest.createProductWithoutType.executor": "Run",
     "JUnit.ProductControllerTest.executor": "Run",
@@ -128,6 +149,9 @@
     "JUnit.StockTest.deductQuantity.executor": "Run",
     "JUnit.StockTest.executor": "Run",
     "JUnit.StockTest.isQuantityLessThen.executor": "Run",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -151,6 +175,9 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/resources/org/springframework/restdocs/templates" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="cafeKiosk.spring.service.mail" />
       <recent name="cafeKiosk.spring.service.order" />
@@ -159,18 +186,62 @@
       <recent name="cafeKiosk.spring.service.product" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MailServiceTest.sendMail">
-    <configuration name="MailServiceTest.sendMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Gradle.Pratical_Testing [asciidoctor]">
+    <configuration name="Pratical_Testing [asciidoctor]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="asciidoctor" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Pratical_Testing [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="CafeKioskTest.createOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Pratical_Testing.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cafeKiosk.spring.service.mail.*" />
+          <option name="PATTERN" value="cafeKiosk.unit.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cafeKiosk.spring.service.mail" />
-      <option name="MAIN_CLASS_NAME" value="cafeKiosk.spring.service.mail.MailServiceTest" />
-      <option name="METHOD_NAME" value="sendMail" />
+      <option name="PACKAGE_NAME" value="cafeKiosk.unit" />
+      <option name="MAIN_CLASS_NAME" value="cafeKiosk.unit.CafeKioskTest" />
+      <option name="METHOD_NAME" value="createOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -207,44 +278,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrderControllerTest.createProductWithEmptyProductNumbers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Pratical_Testing.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cafeKiosk.spring.controller.order.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cafeKiosk.spring.controller.order" />
-      <option name="MAIN_CLASS_NAME" value="cafeKiosk.spring.controller.order.OrderControllerTest" />
-      <option name="METHOD_NAME" value="createProductWithEmptyProductNumbers" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderStatisticsServiceTest.sendOrderStatisicsMail" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Pratical_Testing.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cafeKiosk.spring.service.order.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cafeKiosk.spring.service.order" />
-      <option name="MAIN_CLASS_NAME" value="cafeKiosk.spring.service.order.OrderStatisticsServiceTest" />
-      <option name="METHOD_NAME" value="sendOrderStatisicsMail" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MailServiceTest.sendMail" />
-        <item itemvalue="JUnit.OrderStatisticsServiceTest.sendOrderStatisicsMail" />
+        <item itemvalue="Gradle.Pratical_Testing [asciidoctor]" />
+        <item itemvalue="JUnit.CafeKioskTest.createOrder" />
+        <item itemvalue="Gradle.Pratical_Testing [build]" />
         <item itemvalue="JUnit.OrderControllerTest" />
-        <item itemvalue="JUnit.OrderControllerTest.createProductWithEmptyProductNumbers" />
         <item itemvalue="JUnit.OrderControllerTest.createOrder" />
       </list>
     </recent_temporary>
@@ -306,7 +345,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723992963245</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Mock을 마주하는 자세">
+      <option name="closed" value="true" />
+      <created>1725287389327</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1725287389327</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,6 +374,7 @@
     <MESSAGE value="테스트는 문서다." />
     <MESSAGE value="Business Layer" />
     <MESSAGE value="Presentation Layer" />
-    <option name="LAST_COMMIT_MESSAGE" value="Presentation Layer" />
+    <MESSAGE value="Mock을 마주하는 자세" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mock을 마주하는 자세" />
   </component>
 </project>
